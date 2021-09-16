@@ -9,6 +9,8 @@
 
 // console.log(myFunction('Muzaffar')) //returns Hello Muzaffar
 
+//JavaScript return Statement: The return statement stops the execution of a function and returns a value from that function.
+
 // function myFunction(){
 //   return Math.PI;
 // }
@@ -69,3 +71,26 @@
 //     console.log(a ** (1/3))
 // }
 // sqrt(27) //returns 3
+
+//Arrow function expressions
+//Arrow functions were introduced in ES6. Arrow functions allow us to write shorter function syntax:
+// hello = () => "Hello World!";
+// console.log(hello())
+// Note: This works only if the function has only one statement.
+
+//Comparing traditional functions to arrow functions:
+// Traditional Anonymous Function
+// function (a){
+//   return a + 100;
+// } // Arrow Function Break Down
+
+// 1. Remove the word "function" and place arrow between the argument and opening body bracket
+// (a) => {
+//   return a + 100;
+// }
+
+// 2. Remove the body braces and word "return" -- the return is implied.
+// (a) => a + 100;
+
+// 3. Remove the argument parentheses
+// a => a + 100;
