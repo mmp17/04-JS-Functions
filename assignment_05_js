@@ -1,0 +1,30 @@
+//Assignment 5.1
+// const fruits = ['Orange', 'Banana', 'Apple', 'kiwi', 'Peach'];
+
+// var a = 0;
+// var e = 0;
+// fruits.map((value) => {
+//     //console.log(value.split(''));
+//     value.split('').map((anyValue) => {
+//         //console.log(anyValue);
+//         if (anyValue === 'a') a++;
+//         if (anyValue === 'e') e++;
+//     });
+// });
+
+// console.log('a= ', a) //a=  5
+// console.log('e= ', e) //e=  5
+
+//Assignment 5.2. 10 va 30 sonlari orasidagi sonlarni ajratish
+let number = [10, 9, 5, 23, 12, 3, 3, 45, 6, 43, 23, 0, 2, 3];
+
+// let sum = 0;
+// number.map((value) => {
+//     if (value >= 10 && value <30) {
+//         console.log(value);//10 23 12 23
+//         sum += value;
+//     }
+// });
+
+// console.log(sum); //68
+
